@@ -7,7 +7,7 @@
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
     app:cardUseCompatPadding="true"
-    app:cardBackgroundColor="@color/white">
+    app:cardBackgroundColor="@color/dark2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,16 +21,14 @@
             android:orientation="vertical"
             android:layout_marginTop="5dp">
 
-
-
             <TextView
                 android:id="@+id/titleTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Title"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"/>
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/updateButton"
@@ -57,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="Content"
             android:maxLines="3"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_marginTop="4dp"/>
 
 

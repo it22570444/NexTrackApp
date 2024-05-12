@@ -2,10 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="orange">#E2F4C5</color>
-    <color name="dark3">#A8CD9F</color>
-    <color name="dark2">#58A399</color>
-    <color name="dark">#496989</color>
+    <color name="orange">#A7D129</color>
+    <color name="dark3">#616F39</color>
+    <color name="dark2">#3E432E</color>
+    <color name="dark">#000000</color>
+    <color name="darkL">#3E432E</color>
+    <color name="hintclr">#7D8077</color>
     <color name="red">#E72929</color>
     <color name="green">#79AC78</color>
 </resources>

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".AddNoteActivity"
-    android:background="@color/orange">
+    android:background="@color/dark">
 
     <TextView
         android:id="@+id/addNoteHeading"
@@ -16,8 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:text="Add Task"
-        android:textColor="@color/dark3"
-        android:textSize="40dp"
+        android:textColor="@color/orange"
+        android:textSize="30dp"
         android:textStyle="bold"/>
 
     <ImageView
@@ -34,6 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:hint="Enter the task"
+        android:textColorHint="@color/hintclr"
+        android:textColor="@color/white"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@+id/addNoteHeading"
@@ -46,6 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="Enter the description"
+        android:textColorHint="@color/hintclr"
+        android:textColor="@color/white"
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
