@@ -13,4 +13,30 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="CutShape" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="shapeAppearance">@style/CutShape</item>
+        <item name="hintTextColor">@color/orange</item>
+        <item name="boxStrokeColor">@color/orange</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textCursorDrawable">@color/orange</item>
+        <item name="startIconTint">@color/orange</item>
+    </style>
+    <style name="SearchInputLayout" parent="">
+        <item name="endIconMode">clear_text</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textCursorDrawable">@color/orange</item>
+        <item name="startIconTint">@color/orange</item>
+
+    </style>
 </resources>

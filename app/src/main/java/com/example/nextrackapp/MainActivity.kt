@@ -3,6 +3,7 @@ package com.example.nextrackapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.widget.addTextChangedListener
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.nextrackapp.databinding.ActivityMainBinding
 
@@ -27,6 +28,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddNoteActivity::class.java)
             startActivity(intent)
         }
+        binding.edSearch.addTextChangedListener { text ->
+            search(text.toString())
+        }
+    }
+    private fun search(query: String) {
+        notesAdapter.refreshData(db.searchTaskList(query))
     }
 
     override fun onResume() {
