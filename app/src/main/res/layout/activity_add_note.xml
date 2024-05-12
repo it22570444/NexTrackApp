@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".AddNoteActivity">
+    tools:context=".AddNoteActivity"
+    android:background="@color/orange">
 
     <TextView
         android:id="@+id/addNoteHeading"
@@ -14,9 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-        android:text="Add Task."
-        android:textColor="@color/orange"
-        android:textSize="24dp"
+        android:text="Add Task"
+        android:textColor="@color/dark3"
+        android:textSize="40dp"
         android:textStyle="bold"/>
 
     <ImageView
